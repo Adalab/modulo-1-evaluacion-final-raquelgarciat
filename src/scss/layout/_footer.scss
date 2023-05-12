@@ -9,6 +9,23 @@
     gap: 30px;
     margin-top: -50px;
 
+    &__button {
+        background-color: $white;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: -84px;
+        box-shadow: 0 2px 4px 0 $black;
+
+        &--img {
+            width: 20px;
+        }
+    }
+
     &__nav1 {
         line-height: 1.88;
 
@@ -41,11 +58,10 @@
         p {
             font-size: 1.4rem;
             line-height: 2.14;
+        }
 
-            span {
-                color: $bright-orange;
-            }
-
+        &--specialtext {
+            color: $bright-orange;
         }
     }
 }

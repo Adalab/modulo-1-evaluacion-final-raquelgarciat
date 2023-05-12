@@ -2,6 +2,7 @@
     background-color: $ice-blue;
     padding: 30px 15px;
     text-align: center;
+    padding-bottom: 105px;
 
     &__title {
         font-family: $font-title;
@@ -42,21 +43,5 @@
         align-items: center;
         line-height: 2.25;
         margin: auto;
-        margin-bottom: 38px;
-    }
-
-    &__button2 {
-        background-color: $white;
-        height: 45px;
-        width: 45px;
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: auto;
-
-        &--img {
-            width: 20px;
-        }
     }
 }
