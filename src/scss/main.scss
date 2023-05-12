@@ -1,6 +1,11 @@
 @import 'core/variables';
 @import 'core/reset';
 
+* {
+    font-family: $font-main;
+    font-size: 62.5%;
+}
+
 @import 'layout/header';
 @import 'layout/hero';
 @import 'layout/main';
