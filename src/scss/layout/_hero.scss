@@ -16,6 +16,8 @@
         font-size: 4.2rem;
         text-transform: uppercase;
         padding-bottom: 10px;
+        text-align: center;
+        width: 290px;
     }
 
     &__subtitle {
@@ -34,6 +36,37 @@
 
         &--img {
             width: 20px;
+        }
+    }
+}
+
+@media all and (min-width: 768px) {
+    .hero {
+        padding-bottom: 45px;
+    
+        &__title {
+            font-size: 8rem;
+            width: 690px;
+        }
+
+        &__subtitle {
+            font-size: 2.4rem;
+            padding-bottom: 30px;
+        }
+    }
+}
+
+@media all and (min-width: 1280px) {
+    .hero {
+        padding-bottom: 13px;
+    
+        &__title {
+            font-size: 10rem;
+            width: 730px;
+        }
+
+        &__subtitle {
+            padding-bottom: 30px;
         }
     }
 }
