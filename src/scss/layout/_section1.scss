@@ -1,0 +1,45 @@
+.s1 {
+    background-color: $white;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 30px;
+    padding-bottom: 45px;
+
+    &__p1 {
+        color: $lightblue;
+        font-size: 1.4rem;
+        padding-bottom: 1px;
+        line-height: 2.14;
+    }
+
+    &__title {
+        font-size: 2.4rem;
+        color: $black;
+        font-family: $font-title;
+        padding-bottom: 15px;
+        line-height: 1.25;
+    }
+
+    &__p2 {
+        font-size: 1.8rem;
+        color: $greyish-brown;
+        padding-bottom: 30px;
+        line-height: 1.67;
+    }
+
+    &__button {
+        width: 76px;
+        height: 45px;
+        border: 2px solid $bright-orange;
+        border-radius: 22.5px;
+        color: $bright-orange;
+        font-size: 2.0rem;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+    }
+}
