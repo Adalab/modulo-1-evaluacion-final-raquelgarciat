@@ -1,0 +1,51 @@
+.footer {
+    background-color: $dark-grey-blue;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 15px 45px;
+    gap: 30px;
+    margin-top: -50px;
+
+    &__nav1 {
+        line-height: 1.88;
+
+        a {
+            text-decoration: none;
+            color: $white;
+        }
+
+        li {
+            font-size: 1.6rem;
+            list-style: none;
+        }
+    }
+
+    &__nav2 {
+        line-height: 1.88;
+
+        a {
+            text-decoration: none;
+            color: $white;
+        }
+
+        li {
+            font-size: 1.6rem;
+            list-style: none;
+        }
+    }
+
+    &__end {
+        p {
+            font-size: 1.4rem;
+            line-height: 2.14;
+
+            span {
+                color: $bright-orange;
+            }
+
+        }
+    }
+}
