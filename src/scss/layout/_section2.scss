@@ -1,0 +1,62 @@
+.s2 {
+    background-color: $ice-blue;
+    padding: 30px 15px;
+    text-align: center;
+
+    &__title {
+        font-family: $font-title;
+        font-size: 2.4rem;
+        padding-bottom: 45px;
+    }
+
+    &__gridbox {
+        padding-bottom: 45px;
+        justify-content: center;
+        display: grid;
+        grid-template-rows: 93px 93px 93px;
+        grid-template-columns: 180px;
+        grid-gap: 45px;
+
+        h3 {
+            font-family: $font-title;
+            font-size: 1.8rem;
+            line-height: 1.67;
+        }
+
+        p {
+            font-size: 1.8rem;
+            line-height: 1.67;
+        }
+    }
+
+    &__button1 {
+        width: 184px;
+        height: 45px;
+        background-color: $bright-orange;
+        border-radius: 22.5px;
+        color: $white;
+        font-size: 2.0rem;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 2.25;
+        margin: auto;
+        margin-bottom: 38px;
+    }
+
+    &__button2 {
+        background-color: $white;
+        height: 45px;
+        width: 45px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+
+        &--img {
+            width: 20px;
+        }
+    }
+}
