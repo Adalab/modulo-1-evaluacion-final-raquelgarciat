@@ -41,5 +41,12 @@
         justify-content: center;
         align-items: center;
         font-weight: 500;
+
+        &:hover {
+            background-color: $bright-orange;
+            border: 2px solid $dark-grey-blue;
+            color: $white;
+          }
+
     }
 }

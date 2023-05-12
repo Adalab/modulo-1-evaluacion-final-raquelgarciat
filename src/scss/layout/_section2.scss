@@ -43,5 +43,11 @@
         align-items: center;
         line-height: 2.25;
         margin: auto;
+
+        &:hover {
+            background-color: $white;
+            border: 2px solid $bright-orange;
+            color: $bright-orange;
+        }
     }
 }
