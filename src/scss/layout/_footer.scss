@@ -1,14 +1,7 @@
 .footer {
-    background-color: $dark-grey-blue;
-    color: $white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 60px 15px 45px;
-    gap: 30px;
     margin-top: -50px;
-    font-size: 1.6rem;
+    padding: 60px 15px 45px;
+    background-color: $dark-grey-blue;
 
     &__button {
         background-color: $white;
@@ -27,34 +20,49 @@
         }
     }
 
-    &__nav1 {
+    &__flex {
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 30px;
+        font-size: 1.6rem;
+        margin-top: 27.5px;
+    
+        &--nav1 {
         line-height: 1.88;
-
-        a {
-            text-decoration: none;
-            color: $white;
-            list-style: none;
+            a {
+                text-decoration: none;
+                color: $white;
+                li {
+                    list-style: none;
+                    font-size: 1.6rem;
+                }
+            }
         }
-    }
 
-    &__nav2 {
-        line-height: 1.88;
-
-        a {
-            text-decoration: none;
-            color: $white;
-            list-style: none;
+        &--nav2 {
+            line-height: 1.88;
+                a {
+                    text-decoration: none;
+                    color: $white;
+                    li {
+                        list-style: none;
+                        font-size: 1.6rem;
+                    }
+                }
         }
-    }
 
-    &__end {
-        p {
+        &--end {
+            p {
             font-size: 1.4rem;
             line-height: 2.14;
-        }
 
-        &--specialtext {
-            color: $bright-orange;
+                .specialtext {
+                    color: $bright-orange;
+                }
+            }
         }
     }
 }
