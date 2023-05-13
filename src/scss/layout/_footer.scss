@@ -68,9 +68,44 @@
 }
 
 @media all and (min-width: 768px) {
+    .footer {
+        &__flex {
+            display: flex;
+            flex-direction: row;
+            text-align: left;
 
+            &--nav1 {
+                order: 2;
+                width: 210px;
+            }
+        
+            &--nav2 {
+                order: 3;
+                width: 210px;
+            }
+        
+            &--end {
+                order: 1;
+                width: 210px;
+            }
+        }
+    }
 }
 
 @media all and (min-width: 1280px) {
-
+    .footer {
+        &__flex {
+            &--nav1 {
+                width: 161px;
+            }
+        
+            &--nav2 {
+                width: 159px;
+            }
+        
+            &--end {
+                width: 159px;
+            }
+        }
+    }
 }
