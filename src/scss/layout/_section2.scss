@@ -45,9 +45,9 @@
         margin: auto;
 
         &:hover {
-            background-color: $white;
-            border: 2px solid $bright-orange;
+            background-color: $dark-grey-blue;
             color: $bright-orange;
+            transition: 1s;
         }
     }
 }
